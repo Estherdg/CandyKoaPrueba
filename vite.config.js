@@ -15,12 +15,3 @@ export default {
     assetsDir: "./",
   },
 };
-
-module.exports = {
-  build: {
-    outDir: "dist",
-    minify: true,
-    sourcemap: false,
-    base: "/dist"
-  }
-};
